@@ -1,0 +1,126 @@
+
+.navbar-default {
+    margin-bottom: 0;
+    padding: 5px 0;
+}
+.navbar-brand,
+.navbar-nav li a {
+
+    font-size: 18px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.carousel-inner > .item > img {
+    height: 563px;
+    width: 1000px;
+}
+.carousel {
+    margin-left: 183px;
+    height: 563px;
+    width: 1000px;
+    margin: 20px 183px;
+}
+
+#animate-site {
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+
+    visibility: hidden;
+}
+.contentDiv {
+  height: 100%;
+
+}
+.innerDiv {
+    position: fixed;
+
+    left: 42%; /* or whatever you need */
+    font-size: 22px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+ul li {
+  padding-top: 30px;
+  padding-left: 25px;
+}
+#points2 {
+
+    font-size: 24px;
+    font-family: 'Fjalla One', sans-serif;
+
+  padding-top: 1800px;
+  margin-bottom: 1000px;
+}
+#points {
+    font-size: 24px;
+    font-family: 'Fjalla One', sans-serif;
+
+  padding-top: 1233px;
+}
+#tab-1 {
+
+}
+#tab-2 {
+    background-color: #FFFC66;
+    height: 100vh;
+    width: 100%;
+}
+
+#tab-3 {
+    height: 100vh;
+    width: 100%;
+}
+
+#tab-4 {
+    background-color: #FFFC66;
+    height: 100vh;
+    width: 100%;
+}
+
+#tab-5 {
+    height: 100vh;
+    width: 100%;
+}
+
+#tab-6 {
+    background-color: #FFFC66;
+    height: 100vh;
+    width: 100%;
+}
+
+#tab-7 {
+    height: 100vh;
+    width: 100%;
+}
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.logo-before {
+  -webkit-animation: error 1s forwards;
+  display: inline-block;
+  padding: 30px;
+  transition: all 0.5s;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 550px;
+  height: 250px;
+  width: 250px;
+}
+@-webkit-keyframes error {
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
